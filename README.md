@@ -2,7 +2,7 @@
  Distributed memory synchronization
 
 ## clip是做什么的？
-clip是为了解决分布式内存一致性而产生，clip各个节点基于JAVA NIO相互通信，协议如下：
+clip是为了解决分布式内存一致性而产生，clip各个节点间基于JAVA NIO相互通信，协议如下：
 
 ### ELCP
 head|sid|epoch|txid|type|elcepoch|lid|校验
